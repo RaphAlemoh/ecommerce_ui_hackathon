@@ -7,7 +7,9 @@
 
 Contributors
 
-[Ivan Arabome](https://github.com/neiboaugustine)
-[Austine Nebo](https://github.com/arabomeivan)
+[Owolabi Sherif](https://github.com/owolabisherif87)
+[Austine Nebo](https://github.com/neiboaugustine)
+[Ivan Arabome](https://github.com/arabomeivan)
+[Alemoh Rapheal](https://github.com/RaphAlemoh)
 
 ****

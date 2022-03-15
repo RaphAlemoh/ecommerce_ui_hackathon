@@ -1,19 +1,19 @@
-pages required
-Landing page
-    navbar, slider bar, recommended, footer
-Login
+# pages required
+## Landing page
+     navbar, slider bar, recommended, footer
+## Login
      email, password, submit, login with facebook, login with google
-Forget password page
+## Forget password page
     email, password,
-sign up
+## sign up
     create account, submit
-shoe categories
+## shoe categories
     snickers, sandals, skin, rubber, mokasin, coperate
-payment page
+## payment page
     quatity, item price
-cat page
-About us page
-Contact us
-Need Help
-Shoe brands
-Promo offers
+## cat page
+## About us page
+## Contact us
+## Need Help
+## Top Shoe brands
+## Promo offers

@@ -1,3 +1,4 @@
+pages required
 Landing page
     navbar, slider bar, recommended, footer
 Login
@@ -5,9 +6,14 @@ Login
 Forget password page
     email, password,
 sign up
-    created account, submit
+    create account, submit
 shoe categories
     snickers, sandals, skin, rubber, mokasin, coperate
 payment page
     quatity, item price
 cat page
+About us page
+Contact us
+Need Help
+Shoe brands
+Promo offers

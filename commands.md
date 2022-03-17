@@ -1,1 +1,0 @@
-#### List of git commands used in the project here

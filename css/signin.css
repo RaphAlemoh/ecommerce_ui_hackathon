@@ -1,0 +1,42 @@
+/*for desktop version*/
+.container-fluid
+{
+    height: auto;
+}
+
+.bgimage, .loginscrn 
+{
+  height: auto;
+}
+.bgimage
+{
+   
+}
+.img-fluid
+{
+    margin-top: 12%;
+}
+.mybtn
+{
+    background-color: #F9A826;
+    margin-top: 10%;
+}
+.card
+{
+    width: 65%;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.card-body
+{
+    margin-top: 15%;
+}
+
+/*for mobile version*/
+@media screen and (max-width: 576px)
+{
+
+}

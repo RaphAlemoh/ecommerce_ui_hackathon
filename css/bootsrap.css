@@ -42,28 +42,11 @@ img{
   width: 4px;
   margin-left: 400px;
 }
-.container{
-  display: flex;
-  flex-direction: row;
-/* border: 3px solid black; */
-justify-content: space-between;
-}
-.box-1{
-  flex:1;
-}
-.box-2{
-  flex: 1;
-}
-.box-3{
-  flex: 1;
-}
 .cart{
   height: 30px;
   width: 30px;
 }
-.search{
-  margin-right: 10px;
-}
+
 
 /* @charset "UTF-8"; */
 /*!

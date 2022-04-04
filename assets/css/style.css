@@ -1,0 +1,72 @@
+body{
+    background-image: url('/assets/images/yellow-926728_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar a:hover{
+    background: rgb(204, 204, 204);
+    border-radius: 5px;
+    color: #000;
+  }
+  .navbar li{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+  }
+  .dropdown-item{
+    background: darkslategrey;
+  }
+  .navbar a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 1px 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .navbar ul li a img{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  img{
+      height: 400px;
+  }
+  .cart{
+    height: 4px;
+    width: 4px;
+    margin-left: 400px;
+  }
+  .cart{
+    height: 30px;
+    width: 30px;
+  }
+  .row{
+    
+    /* padding-top: 5px; */
+    height: 100px;
+  }
+  .phase1{
+      margin-top: 5px;
+  }
+  .phase11{
+    border: 1px solid rgb(148, 146, 146);
+    margin-left: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: white;
+  }
+  #categories{
+    list-style: none;
+    text-transform: capitalize;
+  }
+  

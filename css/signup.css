@@ -1,0 +1,55 @@
+
+/* for the create account h3 element to be dark blue*/
+.title
+{
+    margin-top: 6%;
+}
+.logintxt
+{
+    color: #032D6D;
+    text-align: center;
+}
+
+
+/*for backgorund image*/
+.img-fluid
+{
+    margin-top: 12%;
+}
+
+/*for create account panel*/
+.createact
+{
+  margin-top: 5%;
+}
+/*for text field size*/
+.input-group
+{
+    margin-bottom: 25px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*for sign up button*/
+.mybtn
+{
+    background-color: #F9A826;
+    border-color: #F9A826;
+    margin-top: 3%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mybtn:hover{
+    color: #fff;
+    background-color:darkorange;
+    border-color: #F9A826;
+}
+
+.icon
+{
+    padding: 20px;
+    color: #032D6D;
+}

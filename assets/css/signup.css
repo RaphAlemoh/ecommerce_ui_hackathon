@@ -10,7 +10,6 @@
     text-align: center;
 }
 
-
 /*for backgorund image*/
 .img-fluid
 {
@@ -22,6 +21,24 @@
 {
   margin-top: 5%;
 }
+
+/*-----------FOR TEXTFIELD INPUT--------*/
+
+/*give input box style*/
+.form-control
+{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;   
+}
+.form-control:focus
+{
+    box-shadow: none;
+    outline: none;
+}
+
+
 /*for text field size*/
 .input-group
 {

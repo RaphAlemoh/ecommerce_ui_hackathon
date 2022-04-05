@@ -37,6 +37,15 @@
     box-shadow: none;
     outline: none;
 }
+/*for the icons box*/
+.input-group-text
+{
+    background-color: white;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: groove;
+    
+}
 
 
 /*for text field size*/

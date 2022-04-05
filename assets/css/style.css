@@ -27,6 +27,9 @@ ul{
   padding: 3rem 2rem;
   height: 0rem;
 }
+.brand{
+  text-decoration:underline;
+}
 .navbar .navbar-brand a{
   padding: 1rem 0;
   display: block;
@@ -67,9 +70,31 @@ ul{
 .navbar-expand-lg .navbar-nav .navbar-link:hover{
   border-top: 4px solid darkorange;
 }
-.navbar-expand-lg .navbar-nav .navbar-link:active{
+.navbar-expand-lg .navbar-nav .navbar-link.active{
   border-top: 4px solid darkorange;
   color: darkkhaki;
+}
+.navbar-nav button{
+  padding: 1.2rem 0;
+}
+.navbar-nav .btn {
+  background-color: darkorange;
+  color: white;
+  border-radius: 0;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  margin-top: 1px;
+}
+.d-flex .btn:hover {
+  background-color: darkorange;
+}
+.form-control:hover {
+  border-radius: 0;
+  color: darkorange;
+  border-color: 3px solid darkorange;
+}
+.d-flex button{
+  border-color: darkorange;
 }
 .ml-auto{
  margin-left: auto;

@@ -72,7 +72,7 @@
   }
 }
 .navbar{
-  background: #2c3e50;
+  background: darkorange;
 }
 .bg-light {
   --bs-bg-opacity: 1;
@@ -241,7 +241,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  color: white;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {

@@ -10,6 +10,7 @@ margin: 0%;
 overflow-x: hidden;
 top: 0%;
 left: 0%;
+background-color: aliceblue;
 }
 
 /* navbar style */
@@ -135,6 +136,9 @@ height:min-content;
   transform: translateY(-80%);
   left: -8%;
 }
+.carousel{
+  margin-top: 7px;
+}
 .carousel-caption h1{
   font-size: 70px;
   font-weight: 400;
@@ -160,3 +164,32 @@ height:min-content;
   transition: 0.5s;
 }
 /* end of product slider */
+
+/* sub slider */
+.sub{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #aaaaa9;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: inset;
+}
+.sub input{
+  height: 51px;
+  width: 130px;
+  color: black;
+  outline: none;
+  padding: 10px;
+}
+.btn1{
+  height: 50px;
+  width: 50%;
+  color: white;
+  background-color: #F9A826;
+  outline: none;
+  border: none;
+  margin-left: -2px;
+}
+
+/* end of sub slider */

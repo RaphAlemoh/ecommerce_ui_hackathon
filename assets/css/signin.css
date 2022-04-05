@@ -75,6 +75,28 @@ p
 {
     color: #032D6D;
 }
+/*FOR FORGOTTEN PASSWORD*/
+
+/*button for it*/
+.forgotpassbtn
+{
+    background-color: whitesmoke;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    color: #032D6D;
+    width: 40%;
+    margin-left: 55%;    
+}
+.forgotpassbtn:hover, .forgotpassbtn:focus
+{
+    background-color: whitesmoke;
+    color: #032D6D;
+    box-shadow: none;
+    outline: none;
+}
+/*modal page for it*/
 
 /*for forgot my password text*/
 .forgot

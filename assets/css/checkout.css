@@ -1,0 +1,27 @@
+/*FOR DESKTOP VERSION*/
+
+/*for main body*/
+.container-fluid
+{
+    height: auto;
+}
+
+/*TOP DISPLAY MENU*/
+
+/*Remove span box from icons*/
+.input-group-text
+{
+    background-color: white;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+/*adding app font color to icons and nav menu list*/
+.icon, .nav-link, .nav-link:hover
+{
+    color: #032D6D;
+}
+
+/*MAIN CONTENT*/

@@ -165,7 +165,7 @@ height:min-content;
 }
 /* end of product slider */
 
-/* sub slider */
+/* sub menu */
 .sub{
   margin-top: 10px;
   margin-left: 5px;
@@ -177,12 +177,12 @@ height:min-content;
 }
 .sub input{
   height: 51px;
-  width: 130px;
+  width: 135px;
   color: black;
   outline: none;
   padding: 10px;
-}
-.btn1{
+  border-radius: 3px;
+}.btn1{
   height: 50px;
   width: 50%;
   color: white;
@@ -191,5 +191,12 @@ height:min-content;
   border: none;
   margin-left: -2px;
 }
-
-/* end of sub slider */
+.btn1:hover{
+  background: whitesmoke;
+  color: #F9A826;
+  transition: 0.6s;
+}
+.fas-solid{
+  font-size-adjust: 32px;
+}
+/* end of sub menu*/

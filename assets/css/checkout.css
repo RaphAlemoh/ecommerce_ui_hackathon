@@ -87,5 +87,51 @@
 
 
 /*For card "ORDER SUMMARY"*/
-
+/*for font color and size*/
+.one, .two, .three, .four
+{
+    color: #032D6D;
+    font-size: small;
+}
 /*For card "IN YOUR CART"*/
+
+/*move in your cart down a bit*/
+.cartsummary
+{
+    margin-top: 5%;
+}
+/*for font color and size*/
+.date, .orderdetails
+{
+    color: #032D6D;
+}
+
+.orderdetails
+{
+    font-size: large;
+    text-align: right;
+}
+
+.editcart, .editcart:hover
+{
+    color: #032D6D;
+    font-size: medium;
+}
+
+/*For card "Shipping information delivery days"*/
+
+/*move ship info down a bit*/
+.shipinfo
+{
+    margin-top: 5%;
+}
+
+/*for font color and size*/
+.shipheader, .seedetails, .seedetails:hover
+{
+    color: #032D6D;
+}
+p
+{
+  font-size: medium;
+}

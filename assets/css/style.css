@@ -177,7 +177,7 @@ height:min-content;
 }
 .sub input{
   height: 51px;
-  width: 135px;
+  width: 130px;
   color: black;
   outline: none;
   padding: 10px;
@@ -228,6 +228,10 @@ height:min-content;
 }
 .collection .card:hover input {
   opacity: 1;
-
+  transition: 1s;
+}
+.collection input:hover{
+  background-color: gray;
+  transition: 0.5s;
 }
 /* end of new collection */

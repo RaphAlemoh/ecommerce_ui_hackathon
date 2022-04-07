@@ -25,3 +25,10 @@
 }
 
 /*MAIN CONTENT*/
+
+/*card header background color*/
+.card-header
+{
+    background-color: #F9A826;
+    color: #032D6D;
+}

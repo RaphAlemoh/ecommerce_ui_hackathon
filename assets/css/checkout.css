@@ -26,9 +26,66 @@
 
 /*MAIN CONTENT*/
 
+/*For card "SHIPPING "*/
+
 /*card header background color*/
 .card-header
 {
     background-color: #F9A826;
+    color: white;
+}
+/*changing form color for shipping*/
+.col-form-label-sm, .selectdelivery, .form-check-label
+{
     color: #032D6D;
 }
+/*reduce text field size*/
+.form-control, .form-select
+{
+    width: 50%;
+}
+/*changing font size and color for delivery method*/
+.selectdelivery
+{
+    font-size: medium;
+}
+
+/*alligned radio button and check box*/
+
+.form-check
+{
+    margin-left: 1.5%;
+}
+.form-check-input
+{
+    margin-right: 1.5%;
+}
+/*change radio button color and checkbox*/
+.form-check-input:checked
+{
+    background-color: #F9A826;
+    border-color: #F9A826;
+}
+
+/*style submit button flat and allign well*/
+.btn-primary, .btn-primary:hover, .btn-primary:focus
+{
+    background-color: #F9A826;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*move checkout button down*/
+.submitbtn
+{
+    margin-top: 20px;
+}
+
+
+/*For card "ORDER SUMMARY"*/
+
+/*For card "IN YOUR CART"*/

@@ -115,10 +115,19 @@ div span{
   margin-top: 10px;
   text-decoration: underline;
 }
-.shoecat{
+.shoecat li a{
   font-weight: 600;
   font-size: 20px;
+  color: black;
 }
+.shoecat li a:hover{
+  color: gray;
+}
+.catego{
+  background-color: wheat;
+  border-radius: 10px;
+}
+
 /* end of categories */
 
 /* slider images */

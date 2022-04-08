@@ -17,16 +17,18 @@
 /*For Login Panel*/
 
 /*for button*/
-.mybtn
+.mybtn, .recoverylink
 {
     background-color: #F9A826;
     border-color: #F9A826;
     margin-top: 0%;
 }
-.mybtn:hover{
+.mybtn:hover, .mybtn:focus, .recoverylink:hover, .recoverylink:focus{
     color: #fff;
     background-color:darkorange;
     border-color: #F9A826;
+    box-shadow: none;
+    outline: none;
 }
 /*login panel border*/
 .card
@@ -75,6 +77,29 @@ p
 {
     color: #032D6D;
 }
+/*FOR FORGOTTEN PASSWORD*/
+
+/*button for it*/
+.forgotpassbtn
+{
+    background-color: whitesmoke;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    color: #032D6D;
+    width: 40%;
+    margin-left: 55%;    
+}
+.forgotpassbtn:hover, .forgotpassbtn:focus
+{
+    background-color: whitesmoke;
+    color: #032D6D;
+    box-shadow: none;
+    outline: none;
+}
+/*modal page for it*/
+
 
 /*for forgot my password text*/
 .forgot

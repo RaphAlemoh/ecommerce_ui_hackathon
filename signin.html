@@ -16,7 +16,7 @@
              <!-- Option 1: Bootstrap Bundle with Popper -->
             <script src="./assets/js/bootstrap.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    
+           
             <div class="container-fluid">
               <div class="row">
                   <div class="col-lg-6 bgimage"> 
@@ -39,13 +39,37 @@
                                 <button class="btn btn-primary mybtn" type="button">Log me in</button>
                               </div>
                               <div class="row forgot">
-                               <a href="../authenticationPages/forgotpassword.html"> <h5> Forgot Password?</h5> </a>
+
+                                <!-- link to forgot password modal-->
+                                <button type="button" class="btn btn-primary forgotpassbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                  Forgot Password?
+                                </button>
                               </div>
                         </div>
                       </div>
                   </div>
                 
             </div>
+            </div>
+            <!--modal page for forgot password-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Recover Password</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope icon"></i></span>
+                      <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary recoverylink">Send a Recovery Link</button>
+                  </div>
+                </div>
+              </div>
             </div>
             </body>
 </html>

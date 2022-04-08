@@ -110,6 +110,17 @@ div span{
 }
 /* navbar style */
 
+/* categories */
+.categories{
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.shoecat{
+  font-weight: 600;
+  font-size: 20px;
+}
+/* end of categories */
+
 /* slider images */
 .w-100{
 height:min-content;
@@ -144,14 +155,14 @@ height:min-content;
   margin-top: 7px;
 }
 .carousel-caption h1{
-  font-size: 70px;
-  font-weight: 400;
-  color: #F9A826;
+  font-size: 30px;
+  font-weight:600;
+  color: #0d8a9e;
 }
 .carousel-caption p{
   color: black;
   font-weight: 600;
-  font-size:25px;
+  font-size:15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn0{

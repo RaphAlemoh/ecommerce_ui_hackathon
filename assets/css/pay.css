@@ -23,3 +23,48 @@
 {
     color: #032D6D;
 }
+
+/*give card address details header color, text color too for the header and other cards for delivery method and payment*/
+.addrdetials, .deliverymethod, .paymentmethod
+{
+     background-color: #F9A826;
+     color: white;
+}
+/*align change link on address details card to the right side of the header and giving it style*/
+.change
+{
+    text-align: right;
+}
+a, a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+.changelink
+{
+    text-align: right;
+}
+
+/*reduce size width of all cards*/
+.card
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*move address details card down a little*/
+.address
+{
+    margin-top: 1%;
+}
+/*editing content for inside address details*/
+.addrdetialscontent
+{
+    font-size: medium;
+    margin-left: 0%;
+}
+/*move card for delivery method down a little*/
+.delivery
+{
+    margin-top: 3%;
+}

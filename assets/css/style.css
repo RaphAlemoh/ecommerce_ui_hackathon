@@ -33,6 +33,7 @@ ul{
   background-color: #F9A826;
   padding: 3rem 2rem;
   height: 0rem;
+  box-shadow: 5px 5px 20px rgb(0, 0, .5);
 }
 .navbar .navbar-brand a{
   padding: 1rem 0;
@@ -103,6 +104,9 @@ ul{
 }
 .ml-auto{
  margin-left: auto;
+}
+div span{
+  margin-left: 10px;
 }
 /* navbar style */
 
@@ -246,6 +250,7 @@ div .second{
   background-attachment: fixed;
   background-size: 100% 100%;
   width: 100%;
+  background-position: center;
 }
 .parallex h1{
   font-size: 55px;
@@ -287,3 +292,7 @@ div .second{
 }
 
 /* <!-- end of parallex container --> */
+
+/* footer */
+
+/* end of footer */

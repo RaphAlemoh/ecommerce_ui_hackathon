@@ -4,9 +4,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="./assets/css/bootstrap-grid.min.css" rel="stylesheet">
         <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="./assets/css/" rel="stylesheet" >
+        <link href="./assets/css/pay.css" rel="stylesheet" >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" href="assets/css/pay.css" type="image/icon type">
+        <link rel="icon" href="" type="image/icon type">
         <title>
          Payment
         </title>
@@ -17,7 +17,168 @@
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     
             <div class="container-fluid">
-                  
-             </div>
+
+                <!--For top menu-->
+                <div class="row topnav">
+                    <ul class="nav justify-content-end">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope icon"></i></span>
+                        <li class="nav-item">
+                          <a class="nav-link"href="#">Send Feedback</a>
+                        </li>
+                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone icon"></i></span>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">234-817-347-1859</a>
+                        </li>
+                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-wechat icon"></i></span>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Live Chat</a>
+                        </li>
+                      </ul>
+                </div>
+
+                  <div class="row">
+
+                    <!--Checkout-->
+                      <div class="col-lg-12 checkout">
+                          <div class="row header"><h5>Checkout</h5></div>
+                        <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                             <div class="col-lg-6">
+                               <h6>1. Address Details</h6>
+                             </div>
+                                <div class="col-lg-6">
+                                    <h6>Change</h6>
+                                 </div>
+                             
+                            </div>
+                            </div>
+                            <div class="card-body">
+                              <blockquote class="blockquote mb-0">
+                                  <div class="row">
+                                    <h6>Ivan Arabome</h6>
+                                  </div>
+                                  <div class="row">
+                                    House 96, Jalingo Str, Jedo Housing Estate, Airport Road, ABUJA-JABI, Federal Capital Territory
+                                    +2348173471859
+                                  </div>
+                              </blockquote>
+                            </div>
+                          </div>
+
+                          <!--Delivery Method-->
+                          <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                  <h6>2. DELIVERY METHOD</h6>
+                                </div>
+                                </div>
+                                <div class="card-body">
+                                  <blockquote class="blockquote mb-0">
+                                      <div class="row">
+                                        <h5>How do you want your shoe delivered</h5>
+                                      </div>
+                                      <div class="row">
+
+                                        <!--for radio button option on which delivery option user wants -->
+                                        <div class="row mb-3">
+
+                                          <!--row for Door Delivery information-->
+                                          <div class="form-check">
+                                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                              <label class="form-check-label col-form-label-sm" for="flexRadioDefault1">
+                                                Door Delivery
+                                              </label>
+                                              <p>Delivered between Thursday 14 Apr and Monday 18 Apr for ₦ 1,200</p>
+                                              <div class="row doordeliveryinfo">
+                                                <p>- Free delivery on thousands of products in Lagos & Abuja</p>
+                                                <p>- Multiple items may arrive on separate delivery days</p>
+                                                <p>- Ensure delivery address is correct so agent delivers to rightful place</p>
+                                                <p>- We have a pay on delivery option</p>
+                                                <p>- Our services are trusted</p>
+                                                <p>- For more information on return<a href="#">please click here</a></p>
+
+                                              </div>
+                                            </div>
+
+                                            <!--row for pickupstation information-->
+                                            <div class="form-check">
+                                              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                              <label class="form-check-label col-form-label-sm" for="flexRadioDefault2">
+                                                Pickup Station (Cheaper Shipping Fees than Door Delivery)
+                                                <p>Ready for pickup between Thursday 14 Apr to Monday 18 Apr with cheaper shipping fees</p>
+                                              </label>
+
+                                              <!--row for pickupstation information-->
+                                              <div class="row pickupstationinfo">
+                                                <p>- Free delivery on thousands of products in Lagos & Abuja</p>
+                                                <p>- Multiple items may arrive on separate delivery days</p>
+                                                <p>- Ensure delivery address is correct so agent delivers to rightful place</p>
+                                                <p>- We have a pay on delivery option</p>
+                                                <p>- Our services are trusted</p>
+                                                <p>- For more information on return<a href="#">please click here</a></p>
+                                              </div>
+
+                                              <!--display modal for pickupsation-->
+                                              <div class="row selectpickup">
+                                                <a href="#">SELECT PICKUP STATION</a>
+                                              </div>
+                                            </div>
+                                      </div>
+                                      </div>
+                                  </blockquote>
+                                </div>
+
+                                
+                                <!--SHIPMENT DETAILS-->
+                              <div class="card shipdetails">
+                                <div class="card-header">
+                                  <div class="row">
+                                    <h6>SHIPMENT DETAILS</h6>
+                                  </div>
+                                  </div>
+                                <div class="card-body">
+                                  <blockquote class="blockquote mb-0">
+                                    
+                                    
+                                  </blockquote>
+                                </div>
+                              </div>
+                              </div>
+
+                              <!--PAYMENT-->
+
+                      <div class="card payment">
+                        <div class="card-header">
+                          <div class="row">
+                            <h6>3. PAYMENT METHOD</h6>
+                          </div>
+                          </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                              
+
+                            <!-- first row for how user wants to pay-->
+                            <div class="row">
+                            </div>
+
+                            <!--for voucher code-->
+                            <div class="row"></div>
+
+                            <!--for total payment to be made-->
+                            <div class="row"></div>
+
+                            <!--for button to pay-->
+                            <div class="row"></div>
+                          </blockquote>
+                        </div>
+                      </div>
+                      </div>
+
+                      
+                      </div>
+
+                      
+                  </div>
             </body>
 </html>

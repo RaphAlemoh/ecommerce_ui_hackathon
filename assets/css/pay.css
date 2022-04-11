@@ -3,7 +3,9 @@
 /*for main body*/
 .container-fluid
 {
+    
     height: auto;
+    padding-bottom: 2%;
 }
 
 /*TOP DISPLAY MENU*/
@@ -35,7 +37,7 @@
 {
     text-align: right;
 }
-a, a:hover
+.change, .change:hover
 {
     color: white;
     text-decoration: none;
@@ -67,6 +69,7 @@ a, a:hover
 .delivery
 {
     margin-top: 3%;
+    padding-bottom: 2%;
 }
 /*make all delivery info font size using p tag medium*/
 p
@@ -110,3 +113,113 @@ p
 
 }
 /*style radio button for type of delivery*/
+.form-check-input:checked
+{
+    box-shadow: none;
+    background-color: #F9A826;
+    border-color: #F9A826;
+}
+
+/*style the please click here anchor*/
+.clickhere
+{
+    color: #F9A826;
+    text-decoration: none;
+}
+.clickhere:hover
+{
+    color: #F9A826;
+}
+
+/*style the select pickupstation link*/
+.selectpickup
+{
+    font-size: medium;
+    color: #F9A826;
+    text-decoration: none;
+    margin-top: 1%;
+    margin-left: 7%;
+}
+.selectpickup:hover
+{
+    color: #F9A826;
+}
+
+/*styling total amount of product*/
+
+/*reducing row width for total amount to be paid for product*/
+.ordertotal
+{
+  margin-top: 3%;
+}
+.ordertotal, .overalltotal, .deliverytotal
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*aligning figure of amount on the right side of the row*/
+.figure
+{
+    text-align: right;
+}
+
+/*STYLE FOR PAYMENT CARD*/
+.payment
+{
+    margin-top: 4%;
+    padding-bottom: 1%;
+}
+
+/*STYLING CONTENT FOR PAYMENT METHOD CARD*/
+/*link for pay with card*/
+.bank, .bank:hover
+{
+    font-size: medium;
+    text-decoration: none;
+    color: #F9A826;
+}
+
+/*for voucher code moving the row downwards a bit*/
+.voucher
+{
+    margin-top: 1%;
+    text-align: center;
+}
+.bankpay
+{
+    text-align: center;
+}
+/*for voucher textbox reducing width and adding border*/
+.input-group
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%
+}
+/*style button for voucher code and confirm payment btn*/
+.btn-primary, .continuepay
+{
+    background-color: #F9A826;
+    color: white;
+    border-color: #F9A826;
+    border: none;
+}
+.btn-primary:hover
+{
+    background-color: #F9A826
+}
+.continuepay
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/*giving textfield for voucher code border color when focused*/
+.form-control:focus
+{
+    border-color: #F9A826;
+    box-shadow: none;
+}

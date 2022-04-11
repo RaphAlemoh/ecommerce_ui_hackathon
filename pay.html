@@ -49,7 +49,7 @@
                                1. Address Details
                              </div>
                                 <div class="col-lg-6 changelink">
-                                    <a href="checkout.html" class="a">Change</a>
+                                    <a class="change" href="checkout.html" class="a">Change</a>
                                  </div>
                              
                             </div>
@@ -98,7 +98,7 @@
                                                 <p>- Ensure delivery address is correct so agent delivers to rightful place</p>
                                                 <p>- We have a pay on delivery option</p>
                                                 <p>- Our services are trusted</p>
-                                                <p>- For more information on return<a href="#">please click here</a></p>
+                                                <p>- For more information on return&nbsp;<a class="clickhere" href="#">please click here</a></p>
                                                  </div>
                                               </div>
                                             </div>
@@ -107,7 +107,7 @@
                                             <div class="form-check pickup">
                                               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                                               <label class="form-check-label col-form-label-sm" for="flexRadioDefault2">
-                                                Pickup Station (Cheaper Shipping Fees than Door Delivery)
+                                               <h6> Pickup Station (Cheaper Shipping Fees than Door Delivery)</h6>
                                                 <p>Ready for pickup between Thursday 14 Apr to Monday 18 Apr with cheaper shipping fees</p>
                                               </label>
                                               <!--row for pickupstation information-->
@@ -118,13 +118,13 @@
                                                 <p>- Ensure delivery address is correct so agent delivers to rightful place</p>
                                                 <p>- We have a pay on delivery option</p>
                                                 <p>- Our services are trusted</p>
-                                                <p>- For more information on return<a href="#">please click here</a></p>
+                                                <p>- For more information on return&nbsp;<a class="clickhere "href="#">please click here</a></p>
                                               </div>
                                             </div>
 
                                               <!--display modal for pickupsation-->
                                               <div class="row selectpickup">
-                                                <a href="#">SELECT PICKUP STATION</a>
+                                                <a class= "selectpickup" href="#">SELECT PICKUP STATION</a>
                                               </div>
                                             </div>
                                       </div>
@@ -142,15 +142,23 @@
                                   </div>
                                 <div class="card-body">
                                   <blockquote class="blockquote mb-0">
-                                    
+                                    <p>Shipment 1 of 1</p>
+                                    <p>Air max shoe for Shipment</p>
+                                    <p>Delivered between <b>Friday 15 Apr</b> and <b>Tuesday 19 Apr</b></p>
                                     
                                   </blockquote>
                                 </div>
                               </div>
-                              </div>
 
-                              <!--PAYMENT-->
+                              
 
+                      
+                      </div>
+                      </div>
+
+                      
+                      </div>
+                                <!--PAYMENT-->
                       <div class="card payment">
                         <div class="card-header paymentmethod">
                             3. Payment Method
@@ -160,26 +168,46 @@
                               
 
                             <!-- first row for how user wants to pay-->
-                            <div class="row">
+                            <div class="row bankpay">
+                              <p>How do you want to pay for your order?&nbsp;<a class="bank" href="#">Pay with Bank Card</a></p>
+                              <!--modal will display allowing user to input card details-->
+                            
+                              
                             </div>
 
                             <!--for voucher code-->
-                            <div class="row"></div>
+                            <div class="row voucher">
+                              <h6>Got a Voucher? Use it Below</h6>
+                              <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Voucher Code" aria-label="Voucher Code" aria-describedby="basic-addon2">
+                                <span class="input-group-text" id="basic-addon1"><button type="submit" class="btn btn-primary">Add Voucher</button></span>
+                              </div>
+                            </div>
 
                             <!--for total payment to be made-->
-                            <div class="row"></div>
+                            <div class="row">
+                              <div class="row ordertotal">
+                                <div class="col-lg-6"><p>Subtotal</p></div>
+                                <div class="col-lg-6 figure"><p>₦ 127,000</p></div>
+                                </div>
+                                <div class="row deliverytotal">
+                                  <div class="col-lg-6"><p>Delivery fee</p></div>
+                                <div class="col-lg-6 figure"><p>N.A.</p></div>
+                                </div>
+                                <div class="row overalltotal">
+                                  <div class="col-lg-6"><p>Total</p></div>
+                                <div class="col-lg-6 figure"><p>N.A.</p></div>
+                                </div>
+                                </div>
+                            </div>
 
                             <!--for button to pay-->
-                            <div class="row"></div>
+                            <div class="row">
+                              <button type="submit" class="btn btn-primary continuepay">Confirm Payment</button>
+                            </div>
+                           
                           </blockquote>
                         </div>
-                      </div>
-                      </div>
-
-                      
-                      </div>
-
-                      
                   </div>
             </body>
 </html>

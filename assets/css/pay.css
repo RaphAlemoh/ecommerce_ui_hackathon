@@ -68,3 +68,45 @@ a, a:hover
 {
     margin-top: 3%;
 }
+/*make all delivery info font size using p tag medium*/
+p
+{
+    font-size: medium;
+}
+
+/*styling for row holding content for door delivery and pickupstation*/
+
+.doordeliveryinfo
+{
+    margin-top: 3%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25rem;
+    border-radius: 7px;
+/*draw border around deliveryinfo and pickupstation info*/
+    border:1px solid gainsboro;
+}
+.pickupstationinfo
+{
+    margin-top: 1%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25rem;
+    border-radius: 7px;
+/*draw border around deliveryinfo and pickupstation info*/
+    border:1px solid gainsboro;
+}
+/*to paragraph and align the information inside the deilvery info and pickupstsation row*/
+.content
+{
+    margin-top: 5%;
+}
+/*move pickup form div downwards a bit to give it space*/
+.pickup
+{
+    margin-top: 4%;
+
+}
+/*style radio button for type of delivery*/

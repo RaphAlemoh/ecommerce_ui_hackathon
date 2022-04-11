@@ -44,6 +44,12 @@
 {
     width: 50%;
 }
+.form-control:focus
+{
+    box-shadow: none;
+    outline: none;
+    border-color: #F9A826;
+}
 /*changing font size and color for delivery method*/
 .selectdelivery
 {
@@ -63,6 +69,7 @@
 /*change radio button color and checkbox*/
 .form-check-input:checked
 {
+    box-shadow: none;
     background-color: #F9A826;
     border-color: #F9A826;
 }

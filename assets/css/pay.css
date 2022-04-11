@@ -200,14 +200,14 @@ p
     margin-top: 2%
 }
 /*style button for voucher code and confirm payment btn*/
-.btn-primary, .continuepay
+.btn-primary, .continuepay, .continuepay:focus
 {
     background-color: #F9A826;
     color: white;
     border-color: #F9A826;
     border: none;
 }
-.btn-primary:hover
+.btn-primary:hover, .btn-primary:focus
 {
     background-color: #F9A826
 }
@@ -218,8 +218,9 @@ p
     width: 30%;
 }
 /*giving textfield for voucher code border color when focused*/
-.form-control:focus
+.form-control:focus, .btn-primary:focus, .continuepay:focus
 {
     border-color: #F9A826;
+    
     box-shadow: none;
 }

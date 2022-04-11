@@ -169,9 +169,39 @@
 
                             <!-- first row for how user wants to pay-->
                             <div class="row bankpay">
-                              <p>How do you want to pay for your order?&nbsp;<a class="bank" href="#">Pay with Bank Card</a></p>
+                              <p>How do you want to pay for your order?&nbsp;<a data-bs-target="#exampleModal" data-bs-toggle="modal" class="bank" href="#">Pay with Bank Card</a></p>
+                              
                               <!--modal will display allowing user to input card details-->
-                            
+
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Pay with your MasterCard</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="input-group">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-id-card icon"></i></span>
+                                        <input type="text" class="form-control" placeholder="XXXX-XXXX-XXXX-XXXX" aria-label="XXXX-XXXX-XXXX-XXXX" aria-describedby="basic-addon2">
+                                      </div>
+
+                                      <!--form inside modal for card details-->
+                                      <div class="input-group">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock icon"></i></span>
+                                        <input type="text" class="form-control" placeholder="CVV" aria-label="CVV" aria-describedby="basic-addon2">
+                                      </div>
+                                      <div class="input-group">
+                                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar icon"></i></span>
+                                        <input type="text" class="form-control" placeholder="Valid Thru" aria-label="Validthru" aria-describedby="basic-addon2">
+                                      </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-primary recoverylink">Pay Now</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                               
                             </div>
 
@@ -203,7 +233,7 @@
 
                             <!--for button to pay-->
                             <div class="row">
-                              <button type="submit" class="btn btn-primary continuepay">Confirm Payment</button>
+                              <button type="button" class="btn btn-primary continuepay">Confirm Payment</button>
                             </div>
                            
                           </blockquote>

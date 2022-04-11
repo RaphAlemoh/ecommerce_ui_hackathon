@@ -42,6 +42,7 @@
 {
     background-color: white;
     border-left-style: hidden;
+    border-right-style:hidden ;
     border-top-style: hidden;
     border-bottom-style: groove;
     

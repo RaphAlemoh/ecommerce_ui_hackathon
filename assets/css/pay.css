@@ -1,0 +1,226 @@
+/*FOR DESKTOP VERSION*/
+
+/*for main body*/
+.container-fluid
+{
+    
+    height: auto;
+    padding-bottom: 2%;
+}
+
+/*TOP DISPLAY MENU*/
+
+/*Remove span box from icons*/
+.input-group-text
+{
+    background-color: white;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+/*adding app font color to icons and nav menu list*/
+.icon, .nav-link, .nav-link:hover
+{
+    color: #032D6D;
+}
+
+/*give card address details header color, text color too for the header and other cards for delivery method and payment*/
+.addrdetials, .deliverymethod, .paymentmethod
+{
+     background-color: #F9A826;
+     color: white;
+}
+/*align change link on address details card to the right side of the header and giving it style*/
+.change
+{
+    text-align: right;
+}
+.change, .change:hover
+{
+    color: white;
+    text-decoration: none;
+}
+.changelink
+{
+    text-align: right;
+}
+
+/*reduce size width of all cards*/
+.card
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*move address details card down a little*/
+.address
+{
+    margin-top: 1%;
+}
+/*editing content for inside address details*/
+.addrdetialscontent
+{
+    font-size: medium;
+    margin-left: 0%;
+}
+/*move card for delivery method down a little*/
+.delivery
+{
+    margin-top: 3%;
+    padding-bottom: 2%;
+}
+/*make all delivery info font size using p tag medium*/
+p
+{
+    font-size: medium;
+}
+
+/*styling for row holding content for door delivery and pickupstation*/
+
+.doordeliveryinfo
+{
+    margin-top: 3%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25rem;
+    border-radius: 7px;
+/*draw border around deliveryinfo and pickupstation info*/
+    border:1px solid gainsboro;
+}
+.pickupstationinfo
+{
+    margin-top: 1%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25rem;
+    border-radius: 7px;
+/*draw border around deliveryinfo and pickupstation info*/
+    border:1px solid gainsboro;
+}
+/*to paragraph and align the information inside the deilvery info and pickupstsation row*/
+.content
+{
+    margin-top: 5%;
+}
+/*move pickup form div downwards a bit to give it space*/
+.pickup
+{
+    margin-top: 4%;
+
+}
+/*style radio button for type of delivery*/
+.form-check-input:checked
+{
+    box-shadow: none;
+    background-color: #F9A826;
+    border-color: #F9A826;
+}
+
+/*style the please click here anchor*/
+.clickhere
+{
+    color: #F9A826;
+    text-decoration: none;
+}
+.clickhere:hover
+{
+    color: #F9A826;
+}
+
+/*style the select pickupstation link*/
+.selectpickup
+{
+    font-size: medium;
+    color: #F9A826;
+    text-decoration: none;
+    margin-top: 1%;
+    margin-left: 7%;
+}
+.selectpickup:hover
+{
+    color: #F9A826;
+}
+
+/*styling total amount of product*/
+
+/*reducing row width for total amount to be paid for product*/
+.ordertotal
+{
+  margin-top: 3%;
+}
+.ordertotal, .overalltotal, .deliverytotal
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*aligning figure of amount on the right side of the row*/
+.figure
+{
+    text-align: right;
+}
+
+/*STYLE FOR PAYMENT CARD*/
+.payment
+{
+    margin-top: 4%;
+    padding-bottom: 1%;
+}
+
+/*STYLING CONTENT FOR PAYMENT METHOD CARD*/
+/*link for pay with card*/
+.bank, .bank:hover
+{
+    font-size: medium;
+    text-decoration: none;
+    color: #F9A826;
+}
+
+/*for voucher code moving the row downwards a bit*/
+.voucher
+{
+    margin-top: 1%;
+    text-align: center;
+}
+.bankpay
+{
+    text-align: center;
+}
+/*for voucher textbox reducing width and adding border*/
+.input-group
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%
+}
+/*style button for voucher code and confirm payment btn*/
+.btn-primary, .continuepay, .continuepay:focus
+{
+    background-color: #F9A826;
+    color: white;
+    border-color: #F9A826;
+    border: none;
+}
+.btn-primary:hover, .btn-primary:focus
+{
+    background-color: #F9A826
+}
+.continuepay
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/*giving textfield for voucher code border color when focused*/
+.form-control:focus, .btn-primary:focus, .continuepay:focus
+{
+    border-color: #F9A826;
+    
+    box-shadow: none;
+}

@@ -33,6 +33,7 @@ ul{
   background-color: #F9A826;
   padding: 3rem 2rem;
   height: 0rem;
+  box-shadow: 5px 5px 20px rgb(0, 0, .5);
 }
 .navbar .navbar-brand a{
   padding: 1rem 0;
@@ -104,7 +105,30 @@ ul{
 .ml-auto{
  margin-left: auto;
 }
+div span{
+  margin-left: 10px;
+}
 /* navbar style */
+
+/* categories */
+.categories{
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.shoecat li a{
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+.shoecat li a:hover{
+  color: gray;
+}
+.catego{
+  background-color: wheat;
+  border-radius: 10px;
+}
+
+/* end of categories */
 
 /* slider images */
 .w-100{
@@ -140,14 +164,14 @@ height:min-content;
   margin-top: 7px;
 }
 .carousel-caption h1{
-  font-size: 70px;
-  font-weight: 400;
-  color: #F9A826;
+  font-size: 30px;
+  font-weight:600;
+  color: #0d8a9e;
 }
 .carousel-caption p{
   color: black;
   font-weight: 600;
-  font-size:25px;
+  font-size:15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn0{
@@ -246,6 +270,7 @@ div .second{
   background-attachment: fixed;
   background-size: 100% 100%;
   width: 100%;
+  background-position: center;
 }
 .parallex h1{
   font-size: 55px;
@@ -287,3 +312,7 @@ div .second{
 }
 
 /* <!-- end of parallex container --> */
+
+/* footer */
+
+/* end of footer */

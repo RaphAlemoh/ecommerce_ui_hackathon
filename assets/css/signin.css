@@ -76,6 +76,12 @@ p
 .email, .pass, .form-control, .cr, a, a:hover, .ll:hover, .li
 {
     color: #032D6D;
+    
+}
+.form-control:focus
+{
+    border-color: #F9A826;
+    box-shadow: none;
 }
 /*FOR FORGOTTEN PASSWORD*/
 

@@ -1,0 +1,144 @@
+/*FOR DESKTOP VERSION*/
+
+/*for main body*/
+.container-fluid
+{
+    height: auto;
+}
+
+/*TOP DISPLAY MENU*/
+
+/*Remove span box from icons*/
+.input-group-text
+{
+    background-color: white;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+/*adding app font color to icons and nav menu list*/
+.icon, .nav-link, .nav-link:hover
+{
+    color: #032D6D;
+}
+
+/*MAIN CONTENT*/
+
+/*For card "SHIPPING "*/
+
+/*card header background color*/
+.card-header
+{
+    background-color: #F9A826;
+    color: white;
+}
+/*changing form color for shipping*/
+.col-form-label-sm, .selectdelivery, .form-check-label
+{
+    color: #032D6D;
+}
+/*reduce text field size*/
+.form-control, .form-select
+{
+    width: 50%;
+}
+.form-control:focus
+{
+    box-shadow: none;
+    outline: none;
+    border-color: #F9A826;
+}
+/*changing font size and color for delivery method*/
+.selectdelivery
+{
+    font-size: medium;
+}
+
+/*alligned radio button and check box*/
+
+.form-check
+{
+    margin-left: 1.5%;
+}
+.form-check-input
+{
+    margin-right: 1.5%;
+}
+/*change radio button color and checkbox*/
+.form-check-input:checked
+{
+    box-shadow: none;
+    background-color: #F9A826;
+    border-color: #F9A826;
+}
+
+/*style submit button flat and allign well*/
+.btn-primary, .btn-primary:hover, .btn-primary:focus
+{
+    background-color: #F9A826;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*move checkout button down*/
+.submitbtn
+{
+    margin-top: 20px;
+}
+
+
+/*For card "ORDER SUMMARY"*/
+/*for font color and size*/
+.one, .two, .three, .four
+{
+    color: #032D6D;
+    font-size: small;
+}
+/*For card "IN YOUR CART"*/
+
+/*move in your cart down a bit*/
+.cartsummary
+{
+    margin-top: 5%;
+}
+/*for font color and size*/
+.date, .orderdetails
+{
+    color: #032D6D;
+}
+
+.orderdetails
+{
+    font-size: large;
+    text-align: right;
+}
+
+.editcart, .editcart:hover
+{
+    color: #032D6D;
+    font-size: medium;
+}
+
+/*For card "Shipping information delivery days"*/
+
+/*move ship info down a bit*/
+.shipinfo
+{
+    margin-top: 5%;
+}
+
+/*for font color and size*/
+.shipheader, .seedetails, .seedetails:hover
+{
+    color: #032D6D;
+}
+p
+{
+  font-size: medium;
+}

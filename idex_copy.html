@@ -18,21 +18,25 @@
 </head>
 <body>
 
-<!-- navigation bar -->
-  <nav class="navbar navbar-expand-md navbar-light fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">E-commerce</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active " aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active " href="#">Blog</a>
-          </li>
+  <!-- navigation bar -->
+
+  <header class="header">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand brand" href="#">E-commerce</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active pr-5" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active pr-5" href="#">Blog</a>
+            </li>
             <!-- categories -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle active pr-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -75,28 +79,32 @@
               <a class="nav-link active  pr-5" href="#">Sell here</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active  pr-5" href="#">Customers</a>
+              <a class="nav-link active pr-5" href="#">Customers</a>
+              <li class="nav-item">
+                <a class="nav-link active pr-5" href="#">Purchase</a>
+              </li>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active  pr-5" href="#">Purchase</a>
-            </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn" type="submit">Search</button>
-        </form>
-        <div class="cart"><i  class="fa-solid fa-cart-arrow-down text-white "><span>2</span></i></div>
+          </ul>
+          <form class= "ml-auto d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div class="cart"><i  class="fa-solid fa-cart-arrow-down text-white "><span>2</span></i></div>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
+   
 <!-- end of navigation bar -->
 
+<!-- product slider -->
+
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-interval="2000">
-  <div class="carousel-indicators">
+    <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="assets/images/c1 (1).jpg" class="d-block w-100" alt="...">
@@ -170,6 +178,51 @@
 </div>
 
 <!-- ---------end of products slider---------- -->
+
+ <!-- sub slider -->
+<section class="sub">
+  <div class="container p-5 text-white">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="row">
+          <div class="col-lg-2">
+            <span><i class="fa-solid fa-sync"></i></span>
+          </div>
+          <div class="col-lg-10">
+            <h5>Return & Exchange</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 ">
+        <div class="row">
+          <div class="col-lg-2">
+            <span><i class="fa-solid fa-gift"></i></span>
+          </div>
+          <div class="col-lg-10">
+            <h5>Recieve Giftcards</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 ">
+        <div class="row">
+          <div class="col-lg-2">
+            <span><i class="fa-solid fa-user-bounty-hunter"></i></span>
+          </div>
+          <div class="col-lg-10">
+            <h5>Online Support</h5> 
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 ">
+        <div class="row subscribe">
+          <input type="text" placeholder="Your Email">
+          <button class="btn1" >SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of sub slider -->
 
 <!-- Newproducts -->
 <section class="collection">
@@ -253,7 +306,7 @@
 <section class="parallex p-5">
   <div class="container p-5 text-white text-center">
     <div class="row p-3">
-      <div class="col-lg-2 col-md-12 col-sm-12 mx-auto">
+      <div class="col-lg-12 col-md-12 col-sm-12 mx-auto">
         <h1>SHOE Lookup</h1>
         <p class="p-3">
           make the best choice of a shoe today and together sdfkiedkkerekf
@@ -353,33 +406,33 @@
       <div class="col-lg-3 col-md-3 col-xl-3 mx-auto mt-3">
         <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="text-align: left;">make money on E-commerce</h5>
         <p style="text-align: left;">
-          <a href="#" class="text-white" style="text-decoration:none;">Sell on E-com</a><br>
-          <a href="#" class="text-white" style="text-decoration:none;">Become a Sales Consultants</a><br>
-          <a href="#" class="text-white" style="text-decoration:none;">Become a Jumia Vendor Service Provider</a><br>
-          <a href="#" class="text-white" style="text-decoration:none;">Become a Logistics Service Partner</a><br>
-          <a href="#" class="text-white" style="text-decoration:none;">Join the Jumia DA Academy</a><br>
-          <a href="#" class="text-white" style="text-decoration:none;">Jumia Global</a>
+          <a href="#" class="text-white" text-decoration:none;>Sell on E-com</a><br>
+          <a href="#" class="text-white" text-decoration:none;>Become a Sales Consultants</a><br>
+          <a href="#" class="text-white" text-decoration:none;>Become a Jumia Vendor Service Provider</a><br>
+          <a href="#" class="text-white" text-decoration:none;>Become a Logistics Service Partner</a><br>
+          <a href="#" class="text-white" text-decoration:none;>Join the Jumia DA Academy</a><br>
+          <a href="#" class="text-white" text-decoration:none;>Jumia Global</a>
         </p>
       </div>
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="text-align: left;">Products</h5>
         <p style="text-align: left;">
-          <a href="#" class="text-white" style="text-decoration:none;">Our Products</a><br>
-          <a href="#" class="text-white" style="text-decoration:none;">About Us</a><br>
-          <a href="#" class="text-white" style="text-decoration:none;">Contact Us</a><br>
-          <a href="#" class="text-white" style="text-decoration:none;">Help</a><br>
-          <a href="#" class="text-white" style="text-decoration:none;">Customers</a>
+          <a href="#" class="text-white" text-decoration:none;>Our Products</a><br>
+          <a href="#" class="text-white" text-decoration:none;>About Us</a><br>
+          <a href="#" class="text-white" text-decoration:none;>Contact Us</a><br>
+          <a href="#" class="text-white" text-decoration:none;>Help</a><br>
+          <a href="#" class="text-white" text-decoration:none;>Customers</a>
         </p>
       </div>
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="text-align: left;">About E-commerce</h5>
           <p style="text-align: left;">
-            <a href="#" class="text-white" style="text-decoration:none;" >About Us</a><br>
-            <a href="#" class="text-white" style="text-decoration:none;">E-careers</a><br>
-            <a href="#" class="text-white" style="text-decoration:none;">E-Express</a><br>
-            <a href="#" class="text-white" style="text-decoration:none;">Terms/Conditions</a><br>
-            <a href="#" class="text-white" style="text-decoration:none;">Privacy/Cookie Notice</a><br>
-            <a href="#" class="text-white" style="text-decoration:none;">Jumia Global</a>
+            <a href="#" class="text-white" text-decoration:none;>About Us</a><br>
+            <a href="#" class="text-white" text-decoration:none;>E-careers</a><br>
+            <a href="#" class="text-white" text-decoration:none;>E-Express</a><br>
+            <a href="#" class="text-white" text-decoration:none;>Terms/Conditions</a><br>
+            <a href="#" class="text-white" text-decoration:none;>Privacy/Cookie Notice</a><br>
+            <a href="#" class="text-white" text-decoration:none;>Jumia Global</a>
           </p>
       </div>
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"style="text-align: left;">

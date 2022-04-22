@@ -18,91 +18,82 @@
 </head>
 <body>
 
-    
-  <!-- navigation bar -->
-
-  <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="container-fluid">
-        <a class="navbar-brand brand" href="#">E-commerce</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active pr-5" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pr-5" href="#">Blog</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle pr-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               My Account
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Sign In</a></li>
-                <li><a class="dropdown-item" href="#">Sign Up</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Create Account</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle pr-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Help
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">FAQs</a></li>
-                <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Track My Order</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pr-5" href="#">Sell here</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pr-5" href="#">Customers</a>
-              <li class="nav-item">
-                <a class="nav-link pr-5" href="#">Purchase</a>
-              </li>
-            </li>
-          </ul>
-          <form class= "ml-auto d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-          <div><i  class="fa-solid fa-cart-arrow-down text-white "><span>2</span></i></div>
-        </div>
-      </div>
-    </nav>
-  </header>
-   
+<!-- navigation bar -->
+<nav class="navbar navbar-expand-md navbar-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">E-commerce</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active " href="#">Blog</a>
+        </li>
+          <!-- categories -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active pr-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Category
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="product.html">Men</a></li>
+              <li><a class="dropdown-item" href="#">Women</a></li>
+              <li><a class="dropdown-item" href="#">Children</a></li>
+              <li><a class="dropdown-item" href="#">Shoe</a></li>
+              <li><a class="dropdown-item" href="#">Sandals</a></li>
+              <li><a class="dropdown-item" href="#">Snickers</a></li>
+              <li><a class="dropdown-item" href="#">Pam Sandals</a></li>
+            </ul>
+          </li>
+          <!-- end of categories -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active pr-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             My Account
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Sign In</a></li>
+              <li><a class="dropdown-item" href="#">Sign Up</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Create Account</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active pr-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Help
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">FAQs</a></li>
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Track My Order</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active  pr-5" href="#">Sell here</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active  pr-5" href="#">Customers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active  pr-5" href="#">Purchase</a>
+          </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn" type="submit">Search</button>
+      </form>
+      <div class="cart"><i  class="fa-solid fa-cart-arrow-down text-white "><span>2</span></i></div>
+    </div>
+  </div>
+</nav>
 <!-- end of navigation bar -->
 
-<!-- category and slider -->
-<div class="container">
-    <div class="row">
-      <div class="catego col-lg-4">
-        <!-- categories -->
-        <h5 class=" text-uppercase mb-4 font-weight-bold text-warning categories">categories</h5>
-        <ul class="shoecat">
-          <li><a href="#">Men</a></li>
-          <li><a href="#">Women</a></li>
-          <li><a href="#">Children</a></li>
-          <li><a href="#">Shoe</a></li>
-          <li><a href="#">Sandals</a></li>
-          <li><a href="#">Snickers</a></li>
-          <li><a href="#">Pam slippers</a></li>
-        </ul>
-        <!-- end of categories -->
-      </div>
-      
-      <div class="col-lg-8">
-        <!-- products slider -->
-  
+
+<!-- product slider -->
+
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-interval="2000">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -134,7 +125,7 @@
                 <p>BEST SHOE COLLECTIONS FOR YOU IN 2022</p>
                 <h1>Get up to 50% off</h1>
                 <h1>Our New Arrivals</h1>
-  
+                <button class="btn0 mt-3 ml-2">SHOP NOW</button>
               </div>
             </div>
           </div>
@@ -149,6 +140,7 @@
                 <p>BEST SHOE COLLECTIONS FOR YOU IN 2022</p>
                 <h1>Get up to 50% off</h1>
                 <h1>Our New Arrivals</h1>
+                <button class="btn0 mt-3 ml-2">SHOP NOW</button>
               </div>
             </div>
           </div>
@@ -163,6 +155,7 @@
                 <p>BEST SHOE COLLECTIONS FOR YOU IN 2022</p>
                 <h1>Get up to 50% off</h1>
                 <h1>Our New Arrivals</h1>
+                <button class="btn0 mt-3 ml-2">SHOP NOW</button>
               </div>
             </div>
           </div>
@@ -178,9 +171,10 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-</div>
+
   
   <!-- ---------end of products slider---------- -->
+
   <section class="collection">
     <div class="container p-5">
       <h1 class="text-center">Make your choice</h1>
@@ -409,33 +403,33 @@
         <div class="col-lg-3 col-md-3 col-xl-3 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="text-align: left;">make money on E-commerce</h5>
           <p style="text-align: left;">
-            <a href="#" class="text-white" text-decoration:none;>Sell on E-com</a><br>
-            <a href="#" class="text-white" text-decoration:none;>Become a Sales Consultants</a><br>
-            <a href="#" class="text-white" text-decoration:none;>Become a Jumia Vendor Service Provider</a><br>
-            <a href="#" class="text-white" text-decoration:none;>Become a Logistics Service Partner</a><br>
-            <a href="#" class="text-white" text-decoration:none;>Join the Jumia DA Academy</a><br>
-            <a href="#" class="text-white" text-decoration:none;>Jumia Global</a>
+            <a href="#" class="text-white" style="text-decoration:none;">Sell on E-com</a><br>
+            <a href="#" class="text-white" style="text-decoration:none;">Become a Sales Consultants</a><br>
+            <a href="#" class="text-white" style="text-decoration:none;">Become a Jumia Vendor Service Provider</a><br>
+            <a href="#" class="text-white" style="text-decoration:none;">Become a Logistics Service Partner</a><br>
+            <a href="#" class="text-white" style="text-decoration:none;">Join the Jumia DA Academy</a><br>
+            <a href="#" class="text-white" style="text-decoration:none;">Jumia Global</a>
           </p>
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="text-align: left;">Products</h5>
           <p style="text-align: left;">
-            <a href="#" class="text-white" text-decoration:none;>Our Products</a><br>
-            <a href="#" class="text-white" text-decoration:none;>About Us</a><br>
-            <a href="#" class="text-white" text-decoration:none;>Contact Us</a><br>
-            <a href="#" class="text-white" text-decoration:none;>Help</a><br>
-            <a href="#" class="text-white" text-decoration:none;>Customers</a>
+            <a href="#" class="text-white" style="text-decoration:none;">Our Products</a><br>
+            <a href="#" class="text-white" style="text-decoration:none;">About Us</a><br>
+            <a href="#" class="text-white" style="text-decoration:none;">Contact Us</a><br>
+            <a href="#" class="text-white" style="text-decoration:none;">Help</a><br>
+            <a href="#" class="text-white" style="text-decoration:none;">Customers</a>
           </p>
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 font-weight-bold text-warning" style="text-align: left;">About E-commerce</h5>
             <p style="text-align: left;">
-              <a href="#" class="text-white" text-decoration:none;>About Us</a><br>
-              <a href="#" class="text-white" text-decoration:none;>E-careers</a><br>
-              <a href="#" class="text-white" text-decoration:none;>E-Express</a><br>
-              <a href="#" class="text-white" text-decoration:none;>Terms/Conditions</a><br>
-              <a href="#" class="text-white" text-decoration:none;>Privacy/Cookie Notice</a><br>
-              <a href="#" class="text-white" text-decoration:none;>Jumia Global</a>
+              <a href="#" class="text-white" style="text-decoration:none;">About Us</a><br>
+              <a href="#" class="text-white" style="text-decoration:none;">E-careers</a><br>
+              <a href="#" class="text-white" style="text-decoration:none;">E-Express</a><br>
+              <a href="#" class="text-white" style="text-decoration:none;">Terms/Conditions</a><br>
+              <a href="#" class="text-white" style="text-decoration:none;">Privacy/Cookie Notice</a><br>
+              <a href="#" class="text-white" style="text-decoration:none;">Jumia Global</a>
             </p>
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"style="text-align: left;">

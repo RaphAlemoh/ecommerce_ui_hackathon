@@ -1,0 +1,14 @@
+
+/*For all the buttons in the page*/
+.btn
+{
+    border-color: #F9A826;
+    background-color: #F9A826;
+}
+.btn:hover, .btn:focus{
+    color: #fff;
+    background-color:darkorange;
+    border-color: #F9A826;
+    box-shadow: none;
+    outline: none;
+}

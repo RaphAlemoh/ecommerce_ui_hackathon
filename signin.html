@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="./assets/css/bootstrap-grid.min.css" rel="stylesheet">
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./assets/css/signin.css" rel="stylesheet" >
+        <link rel="icon" href="" type="image/icon type">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <title>
+         Sign In
+        </title>
+        </head>
+        <body>
+             <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="./assets/js/bootstrap.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+           
+            <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-6 bgimage"> 
+                      <img src="./assets/images/undraw_secure_login_pdn4.svg" class="img-fluid" alt="Not Responding">
+                </div>
+                  <div class="col-lg-6 .loginscrn ">
+                    <p>Don't have an account? <a href="../signup.html">Create an Account</a></p>
+                    <div class="card">
+                        <div class="card-body">
+                          <div class="row heading">
+                            <h3 class="logintxt">Log into your account</h3>
+                          </div>
+                              <div class="input-group mb-3">
+                                <input type="email" class="form-control ll" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+                              </div>
+                              <div class="input-group mb-3">
+                                <input type="password" class="form-control li" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2">
+                              </div>
+                              <div class="d-grid gap-2">
+                                <button class="btn btn-primary mybtn" type="button">Log me in</button>
+                              </div>
+                              <div class="row forgot">
+
+                                <!-- link to forgot password modal-->
+                                <button type="button" class="btn btn-primary forgotpassbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                  Forgot Password?
+                                </button>
+                              </div>
+                        </div>
+                      </div>
+                  </div>
+                
+            </div>
+            </div>
+            <!--modal page for forgot password-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Recover Password</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope icon"></i></span>
+                      <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary recoverylink">Send a Recovery Link</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </body>
+</html>

@@ -13,7 +13,7 @@ Your online store with unique design
 ****
 This project was done by Ivan Arabome and Neibo Augustine to demonstrate their skills in
 using HTML5, CSS3, Bootstrap to build an ecommerce UI with practical hands on using git 
-to manage code contribution remotely and deployment on netlify.
+to manage code contribution remotely and deployment on netlify [Ecommerce UI Hackathon](https://ecommerce-ui-hackathon.netlify.app/).
 ****
 
 
